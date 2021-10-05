@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["schoolagent"],{b0b4:function(n,e,o){"use strict";o.d(e,"a",function(){return u});var r=o("85f2"),t=o.n(r);function a(n,e){for(var o=0;o<e.length;o++){var r=e[o];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),t()(n,r.key,r)}}function u(n,e,o){return e&&a(n.prototype,e),o&&a(n,o),n}}}]);
+//# sourceMappingURL=schoolagent.7d2d1a75.js.map
