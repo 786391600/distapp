@@ -1,0 +1,1 @@
+import{dJ as t}from"./index-xKMN8uKn.js";const s=t("routeParams",{state:()=>({data:{},key:""}),getters:{getParams(){return this.data[this.key]}},actions:{setParams(t,s){this.reset(),this.data[t]=s},setKey(t){this.key=t},reset(){this.key="",this.data={}}},persist:!0});export{s as r};

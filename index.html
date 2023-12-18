@@ -1,1 +1,114 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/favicon.ico><title>后台管理</title><link href=/css/about.35d9a0c9.css rel=prefetch><link href=/css/about~car~carInfo~fleet~home~orderEditor.b80ff810.css rel=prefetch><link href=/css/car.b7dc10f4.css rel=prefetch><link href=/css/carInfo.6bec4075.css rel=prefetch><link href=/css/fleet.cfbf5781.css rel=prefetch><link href=/css/home.c555d8fa.css rel=prefetch><link href=/css/orderEditor.e054941e.css rel=prefetch><link href=/js/about.59df2962.js rel=prefetch><link href=/js/about~car~carInfo~fleet~home~orderEditor.73aecbf5.js rel=prefetch><link href=/js/car.249bbdc2.js rel=prefetch><link href=/js/carInfo.f09b4224.js rel=prefetch><link href=/js/fleet.2ba446f7.js rel=prefetch><link href=/js/home.544e84ed.js rel=prefetch><link href=/js/orderEditor.95e9c75e.js rel=prefetch><link href=/css/app.cd13a5d8.css rel=preload as=style><link href=/css/chunk-vendors.e20ee9ff.css rel=preload as=style><link href=/js/app.d9d71413.js rel=preload as=script><link href=/js/chunk-vendors.e6b41dd4.js rel=preload as=script><link href=/css/chunk-vendors.e20ee9ff.css rel=stylesheet><link href=/css/app.cd13a5d8.css rel=stylesheet></head><body><noscript><strong>We're sorry but webapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.e6b41dd4.js></script><script src=/js/app.d9d71413.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>招工侠</title>
+    <script type="module" crossorigin src="/assets/index-xKMN8uKn.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-8gUjfWgZ.css">
+  </head>
+  <body>
+    <div id="app">
+      <style>
+        .app-loading {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background: #f0f2f5;
+        }
+
+        .app-loading .app-loading-wrap {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          display: flex;
+          transform: translate3d(-50%, -50%, 0);
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .app-loading .app-loading-title {
+          margin-bottom: 30px;
+          font-size: 20px;
+          font-weight: bold;
+          text-align: center;
+        }
+
+        .app-loading .app-loading-logo {
+          width: 100px;
+          margin: 0 auto 15px auto;
+        }
+
+        .app-loading .app-loading-item {
+          position: relative;
+          display: inline-block;
+          width: 60px;
+          height: 60px;
+          vertical-align: middle;
+          border-radius: 50%;
+        }
+
+        .app-loading .app-loading-outter {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border: 4px solid #2d8cf0;
+          border-bottom: 0;
+          border-left-color: transparent;
+          border-radius: 50%;
+          animation: loader-outter 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+        }
+
+        .app-loading .app-loading-inner {
+          position: absolute;
+          top: calc(50% - 20px);
+          left: calc(50% - 20px);
+          width: 40px;
+          height: 40px;
+          border: 4px solid #87bdff;
+          border-right: 0;
+          border-top-color: transparent;
+          border-radius: 50%;
+          animation: loader-inner 1s cubic-bezier(0.42, 0.61, 0.58, 0.41) infinite;
+        }
+
+        @keyframes loader-outter {
+          0% {
+            transform: rotate(0deg);
+          }
+
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+
+        @keyframes loader-inner {
+          0% {
+            transform: rotate(0deg);
+          }
+
+          100% {
+            transform: rotate(-360deg);
+          }
+        }
+      </style>
+      <div class="app-loading">
+        <div class="app-loading-wrap">
+          <div class="app-loading-title">
+            <img src="/logo.png" class="app-loading-logo" alt="Logo" />
+            <div class="app-loading-title">招工侠</div>
+          </div>
+          <div class="app-loading-item">
+            <div class="app-loading-outter"></div>
+            <div class="app-loading-inner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
